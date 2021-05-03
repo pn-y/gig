@@ -3,4 +3,4 @@
 
 require 'gig'
 
-Gig.call options
+Gig.call ARGV.join(' ')
